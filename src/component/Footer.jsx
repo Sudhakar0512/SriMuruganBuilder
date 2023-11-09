@@ -35,10 +35,10 @@ export default function Footer() {
             <div>
               <div className="flex flex-row items-center place-items-end mb-2">
                 <div className="mr-2 hover:text-orange-500">
-                <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
-                  <p className="p">Like us</p>
-                  <p className="font-bold p">Facebook</p>
-                </a>
+                  <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
+                    <p className="p">Like us</p>
+                    <p className="font-bold p">Facebook</p>
+                  </a>
                 </div>{" "}
                 <img src={facebook} className="footer-top-2-img w-12" alt="" />
               </div>
@@ -46,8 +46,8 @@ export default function Footer() {
               <div className="flex flex-row items-center place-items-end">
                 <div className="mr-2 hover:text-orange-500">
                   <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
-                  <p className="p">Follow us</p>
-                  <p className="font-bold p">Twitter</p>
+                    <p className="p">Follow us</p>
+                    <p className="font-bold p">Twitter</p>
                   </a>
                 </div>{" "}
                 <div className="m-1">
@@ -66,8 +66,8 @@ export default function Footer() {
                 <img src={insta} className="footer-top-2-img w-12" alt="" />
                 <div className="ml-2 hover:text-orange-500">
                   <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
-                  <p className="p">Follow us</p>
-                  <p className="font-bold p">Instagram</p>
+                    <p className="p">Follow us</p>
+                    <p className="font-bold p">Instagram</p>
                   </a>
                 </div>
               </div>
@@ -77,13 +77,12 @@ export default function Footer() {
                 <img src={utube} className="footer-top-2-img w-12" alt="" />
                 <div className="ml-2 hover:text-orange-500">
                   <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
-                  <p className="p">Subscribe us</p>
-                  <p className="font-bold p">You Tube</p>
+                    <p className="p">Subscribe us</p>
+                    <p className="font-bold p">You Tube</p>
                   </a>
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="footer-top-3  flex flex-col gap-4 text-center items-center">
@@ -99,7 +98,6 @@ export default function Footer() {
               </div>
               <p className="text-sm p">+91 9600348970 / +91 9842282655</p>
             </div>
-
             <div>
               <div className="flex items-center justify-center gap-2 font-bold">
                 <img
@@ -110,9 +108,10 @@ export default function Footer() {
                 />
                 <div className="ad-head">Email</div>
               </div>
-              <p className="footer-top-3-mail text-md p">gowthmcharm@gmail.com</p>
+              <p className="footer-top-3-mail text-md p">
+                gowthmcharm@gmail.com
+              </p>
             </div>{" "}
-
             <div>
               <div className="flex items-center justify-center gap-2 font-bold">
                 <img
@@ -123,24 +122,23 @@ export default function Footer() {
                 />
                 <div className="ad-head">Office Address</div>
               </div>
-              <p className="text-md p">358A/2,Mylapuram road,vayalur,palani.624618</p>
+              <p className="text-md p">
+                358A/2,Mylapuram road,vayalur,palani.624618
+              </p>
             </div>
           </div>
         </div>
-      </div>    
+      </div>
 
       <div
         className="footer-bottom text-white"
         style={{ background: "#262626" }}
       >
         <div>
-        <p>Copyrights © 2022 All Rights Reserved</p>
-        <p>Sri Murugan Builders,Vayalore</p>
+          <p>Copyrights © 2023 All Rights Reserved</p>
+          <p>Sri Murugan Builders,Vayalore</p>
         </div>
-
       </div>
-
-      
     </div>
   );
 }

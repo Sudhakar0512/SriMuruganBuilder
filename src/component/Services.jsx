@@ -1,11 +1,11 @@
 import React from "react";
 import img1 from "../assets/b3.jpg";
 import building from "../assets/building.jpg";
-import architucture from "../assets/architucture.jpg";
-import interior from "../assets/interior.jpg"
-import materilas from "../assets/materilas.jpeg"
-import plan from "../assets/plan.jpeg"
-import renovation from "../assets/renovation.jpeg"
+import architucture from "../assets/homepro3.jpg";
+import interior from "../assets/interior.jpg";
+import materilas from "../assets/materilas.jpeg";
+import plan from "../assets/plan.jpg";
+import renovation from "../assets/renovation.jpeg";
 export default function Services() {
   return (
     <section className="services" id="services">
@@ -13,7 +13,7 @@ export default function Services() {
       <div className="box-continer">
         <div className="box">
           <img src={building} className="img" alt="img" />
-          <h3 className="h3">Building Costrucions</h3>
+          <h3 className="h3">Dream Architecture</h3>
           <p className="p">
             {" "}
             Crafting Dreams, Precision, Quality, and Innovation in Building
@@ -22,7 +22,7 @@ export default function Services() {
         </div>
         <div className="box">
           <img src={architucture} className="img" alt="img" />
-          <h3 className="h3">Architecture Design</h3>
+          <h3 className="h3">Home Design</h3>
           <p className="p">
             Elevate Spaces, Innovative Architecture Designs for Inspired Living
           </p>

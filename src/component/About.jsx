@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/aboutVideo.mp4";
+import img1 from "../assets/aboutVideo2.mp4";
 export default function About() {
   return (
     <section className="about" id="about">
@@ -26,10 +26,10 @@ export default function About() {
           </a>
         </div>
       </div>
-      <div className="box-container">
+      <div className="box-container" style={{cursor:'pointer'}}>
         <div className="box">
           <h3 className="h3">2+</h3>
-          <p className="p">Years of Experience</p>
+          <p className="p">Years Experience</p>
         </div>
         <div className="box">
           <h3 className="h3">20+</h3>

@@ -1,13 +1,14 @@
 import React from "react";
 import img1 from "../assets/b1.jpg";
-import caboard from "../assets/caboardpro.png";
+import caboard from "../assets/interior.jpg";
 import LightGallery from "lightgallery/react";
-import homeprayer from "../assets/homeprayer.jpg"
-import homepro from "../assets/homepro.png"
-import homepro2 from "../assets/homepro2.jpg"
-import homepro3 from "../assets/homepro3.jpg"
-import flooring from "../assets/flooringpro.jpg"
-import tvpro from "../assets/tvpro.jpeg"
+import homeprayer from "../assets/homeprayer.jpg";
+import homepro from "../assets/homepro.png";
+import homepro2 from "../assets/homepro2.jpg";
+import homepro3 from "../assets/homepro3.jpg";
+import flooring from "../assets/flooringpro.jpg";
+import tvpro from "../assets/tvpro.jpeg";
+import logo from "../assets/logo.png";
 
 // import styles
 import "lightgallery/css/lightgallery.css";

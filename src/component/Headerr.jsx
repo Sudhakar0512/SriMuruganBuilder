@@ -1,4 +1,5 @@
 import React, { useEffect,useState } from "react";
+import { NavLink } from "react-router-dom";
 
 
 export default function Headerr() {
@@ -24,7 +25,6 @@ export default function Headerr() {
     document.querySelector("#menu-btn").onclick = () => {
       navbar.classList.toggle("active");
       setContactInfoActive(false);
-
     };
     document.querySelector("#info-btn").onclick = () => {
       // contactInfo.classList.add("activeee");
@@ -70,7 +70,7 @@ export default function Headerr() {
             Projects
           </a>
            <a href="#reviwes" className="Anc">
-             Reviwes
+             Reviews
           </a>
           <a href="#contact" className="Anc">
             Contact
@@ -78,6 +78,14 @@ export default function Headerr() {
           {/* <a href="#blog" className="Anc">
             Blog
           </a> */}
+
+
+
+          <NavLink to="/gallery" className="Anc gal">
+            Gallery
+          </NavLink>
+
+          
         </nav>
 
         <div className="iconss">
