@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/SriMuruganBuilder/static/css/main.ce75d686.css",
+    "main.js": "/SriMuruganBuilder/static/js/main.f9aedbc8.js",
+    "static/js/787.91b0033e.chunk.js": "/SriMuruganBuilder/static/js/787.91b0033e.chunk.js",
+    "static/media/b1.jpg": "/SriMuruganBuilder/static/media/b1.01227918c3eed2e06dbe.jpg",
+    "static/media/aboutVideo2.mp4": "/SriMuruganBuilder/static/media/aboutVideo2.c6971ac2e6f3f899b9e4.mp4",
+    "static/media/homepro.png": "/SriMuruganBuilder/static/media/homepro.a0d22604d600d4700b5c.png",
+    "static/media/plan.jpg": "/SriMuruganBuilder/static/media/plan.af0ed453845c67d7d2db.jpg",
+    "static/media/b6.jpg": "/SriMuruganBuilder/static/media/b6.a758945e5e437dbb865f.jpg",
+    "static/media/renovation.jpeg": "/SriMuruganBuilder/static/media/renovation.20262074d3093b649f03.jpeg",
+    "static/media/b5.jpg": "/SriMuruganBuilder/static/media/b5.0c934a7ff24cce4549a6.jpg",
+    "static/media/interior.jpg": "/SriMuruganBuilder/static/media/interior.9fe4d57ac07ba8601921.jpg",
+    "static/media/b3.jpg": "/SriMuruganBuilder/static/media/b3.9f386abb452f2616ae67.jpg",
+    "static/media/b4.jpg": "/SriMuruganBuilder/static/media/b4.2af21bc19cc31618172d.jpg",
+    "static/media/tvpro.jpeg": "/SriMuruganBuilder/static/media/tvpro.8d5624b05fec2b7c4aa9.jpeg",
+    "static/media/homepro3.jpg": "/SriMuruganBuilder/static/media/homepro3.1ca051c7e7d73fef8856.jpg",
+    "static/media/logo.png": "/SriMuruganBuilder/static/media/logo.425ff3303b84663b4c33.png",
+    "static/media/materilas.jpeg": "/SriMuruganBuilder/static/media/materilas.c3e57b75657dde9e91d4.jpeg",
+    "static/media/homeprayer.jpg": "/SriMuruganBuilder/static/media/homeprayer.1cf2d39340369e5b7a05.jpg",
+    "static/media/building.jpg": "/SriMuruganBuilder/static/media/building.4600c2b12e95c6eb7347.jpg",
+    "static/media/homepro2.jpg": "/SriMuruganBuilder/static/media/homepro2.4b43751d5d6fd69957b7.jpg",
+    "static/media/footerBackGround.png": "/SriMuruganBuilder/static/media/footerBackGround.e31a78fa8a9a4141c298.png",
+    "static/media/flooringpro.jpg": "/SriMuruganBuilder/static/media/flooringpro.9ae3d3438ce3689a5d7d.jpg",
+    "static/media/location.png": "/SriMuruganBuilder/static/media/location.a405c2668c55f74c09be.png",
+    "static/media/lg.svg?io9a6k": "/SriMuruganBuilder/static/media/lg.09cd8e9be7081f216644.svg",
+    "static/media/phone-call.png": "/SriMuruganBuilder/static/media/phone-call.d35848942c955a6232b3.png",
+    "static/media/lg.woff?io9a6k": "/SriMuruganBuilder/static/media/lg.356a0e9cb064c7a196c6.woff",
+    "static/media/lg.ttf?io9a6k": "/SriMuruganBuilder/static/media/lg.747d038541bfc6bb8ea9.ttf",
+    "static/media/lg.woff2?io9a6k": "/SriMuruganBuilder/static/media/lg.64b800aa30714fd916dc.woff2",
+    "index.html": "/SriMuruganBuilder/index.html",
+    "main.ce75d686.css.map": "/SriMuruganBuilder/static/css/main.ce75d686.css.map",
+    "main.f9aedbc8.js.map": "/SriMuruganBuilder/static/js/main.f9aedbc8.js.map",
+    "787.91b0033e.chunk.js.map": "/SriMuruganBuilder/static/js/787.91b0033e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce75d686.css",
+    "static/js/main.f9aedbc8.js"
+  ]
+}
