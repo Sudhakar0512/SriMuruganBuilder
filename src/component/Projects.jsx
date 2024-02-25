@@ -47,12 +47,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">Interior Design</h3>
               <p className="p">Inspiring Interior Design</p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         <a href={homepro} className="box">
@@ -69,12 +69,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">dream home</h3>
               <p className="p">Attractive Home Design</p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         <a href={homepro2} className="box">
@@ -91,12 +91,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">Architecture home</h3>
               <p className="p">Innovative Architecture Designs </p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         <a href={homepro3} className="box">
@@ -113,12 +113,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">Cushy Haven</h3>
               <p className="p">Plush Comfort Paradise</p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         <a href={flooring} className="box">
@@ -135,12 +135,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">Flooring Design</h3>
               <p className="p">Stylish flooring solutions</p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         <a href={tvpro} className="box">
@@ -157,12 +157,12 @@ export default function Projects() {
               alt=""
             />
           </div>
-          <div className="content">
+          <div className="content bg-gray-200">
             <div className="info">
               <h3 className="h3">Attractive Showcase</h3>
               <p className="p">Showcasing Elegance Unveiled</p>
             </div>
-            <i className="fas fa-plus i"></i>
+            {/* <i className="fas fa-plus i"></i> */}
           </div>
         </a>
         {/* <a href={img1} className="box">

@@ -35,12 +35,14 @@ export default function Footer() {
             <div>
               <div className="flex flex-row items-center place-items-end mb-2">
                 <div className="mr-2 hover:text-orange-500">
-                  <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
+                  <a href="https://www.facebook.com/profile.php?id=100091520522383&mibextid=ZbWKwL">
                     <p className="p">Like us</p>
                     <p className="font-bold p">Facebook</p>
                   </a>
                 </div>{" "}
+                <a href="https://www.facebook.com/profile.php?id=100091520522383&mibextid=ZbWKwL">
                 <img src={facebook} className="footer-top-2-img w-12" alt="" />
+                </a>
               </div>
 
               <div className="flex flex-row items-center place-items-end">
@@ -51,11 +53,13 @@ export default function Footer() {
                   </a>
                 </div>{" "}
                 <div className="m-1">
+                <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
                   <img
                     src={twitter}
                     className="footer-top-2-img w-9 ml-1.5"
                     alt=""
                   />
+                  </a>
                 </div>{" "}
               </div>
             </div>
@@ -63,7 +67,9 @@ export default function Footer() {
             <div>
               <div className="flex flex-row items-center place-items-start mb-2">
                 {" "}
+                <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
                 <img src={insta} className="footer-top-2-img w-12" alt="" />
+                </a>
                 <div className="ml-2 hover:text-orange-500">
                   <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
                     <p className="p">Follow us</p>
@@ -74,7 +80,9 @@ export default function Footer() {
 
               <div className="flex flex-row items-center place-items-start">
                 {" "}
+                <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
                 <img src={utube} className="footer-top-2-img w-12" alt="" />
+                </a>
                 <div className="ml-2 hover:text-orange-500">
                   <a href="https://instagram.com/srimuruganbuilders?igshid=MzRlODBiNWFlZA==">
                     <p className="p">Subscribe us</p>

@@ -6,6 +6,7 @@ import Projects from "../component/Projects"
 import Review from "../component/Review"
 import ContactMap from "../component/ContactMap"
 import Headerr from '../component/Headerr'
+import HomeGallery from '../component/HomeGallery'
 export default function Homepage() {
   return (
    <div>
@@ -14,6 +15,7 @@ export default function Homepage() {
       <About/>
       <Services/>
       <Projects/>
+      <HomeGallery/>
       <Review/>
       <ContactMap/> 
    </div>

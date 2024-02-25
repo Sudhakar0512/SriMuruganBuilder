@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import axios from "axios";
-import { NavLink } from "react-router-dom";
 import GalleryHeader from "./GalleryHeader";
 import Loading from "./Loading";
+import LazyLoad from "react-lazy-load";
 
 export default function Gallery() {
   const closeIconStyles = {
@@ -67,7 +67,7 @@ export default function Gallery() {
       </div>
       <div className="gallery">
         {isLoading ? (
-          <Loading/>
+          <Loading />
         ) : (
           data.map((item, index) => {
             return (
@@ -78,11 +78,19 @@ export default function Gallery() {
                   getImg(item.imageBase64, item.name);
                 }}
               >
-                <img
-                  src={`data:image/jpeg;base64,${item.imageBase64}`}
-                  className="custom-w-100"
-                  alt=""
-                />
+                <LazyLoad
+                  threshold={0.95}
+                  onContentVisible={() => {
+                    // console.log("loaded!");
+                  }}
+                >
+                  <img
+                    src={`data:image/jpeg;base64,${item.imageBase64}`}
+                    className="custom-w-100"
+                    alt=""
+                    // loading="lazy" //lazy loading
+                  />
+                </LazyLoad>
               </div>
             );
           })

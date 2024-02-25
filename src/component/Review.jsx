@@ -1,5 +1,6 @@
 import React from "react";
-import img from "../assets/b3.jpg";
+import menp from "../assets/menprofile.jpeg";
+import womanp from "../assets/womanprfile.jpeg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -34,7 +35,7 @@ export default function Review() {
             <SwiperSlide>
               <div className="slide">
                 <div className="user">
-                  <img src={img} className="img" alt="" />
+                  <img src={womanp} className="img" alt="" />
                   <div className="info">
                     <h3 className="h3">Ms Surithi</h3>
                     <div className="stars">
@@ -54,7 +55,7 @@ export default function Review() {
             <SwiperSlide>
               <div className="slide">
                 <div className="user">
-                  <img src={img} className="img" alt="" />
+                  <img src={menp} className="img" alt="" />
                   <div className="info">
                     <h3 className="h3">Mr Santhonsh</h3>
                     <div className="stars">
@@ -74,7 +75,7 @@ export default function Review() {
             <SwiperSlide>
               <div className="slide">
                 <div className="user">
-                  <img src={img} className="img" alt="" />
+                  <img src={menp} className="img" alt="" />
                   <div className="info">
                     <h3 className="h3">Mr Suhumar</h3>
                     <div className="stars">
@@ -94,7 +95,7 @@ export default function Review() {
             <SwiperSlide>
               <div className="slide">
                 <div className="user">
-                  <img src={img} className="img" alt="" />
+                  <img src={menp} className="img" alt="" />
                   <div className="info">
                     <h3 className="h3">Mr Vignesh</h3>
                     <div className="stars">
@@ -114,7 +115,7 @@ export default function Review() {
             <SwiperSlide>
               <div className="slide">
                 <div className="user">
-                  <img src={img} className="img" alt="" />
+                  <img src={menp} className="img" alt="" />
                   <div className="info">
                     <h3 className="h3">Mr Deepan Kumar</h3>
                     <div className="stars">

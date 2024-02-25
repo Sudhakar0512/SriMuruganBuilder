@@ -101,6 +101,7 @@ export default function Headerr() {
 
       <div className="contact-info " style={{ display: isContactInfoActive ? 'block' : 'none' }}>
         <div id="close-contact-info" className="fas fa-times"></div>
+        <p className="text-sm pb-4">Click icon to enter the link!</p>
         <div className="info">
           <a href="tel:9600348970">
           <i className="fas fa-phone ii"></i>
